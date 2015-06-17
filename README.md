@@ -5,6 +5,7 @@
 * Just put 2D Array into *solve_it* method
 * Call *getResult* method to see result
 * Example:
+ ```
 > $arr = array(
     array(0, 6, 0, 0, 0, 0, 0, 3, 0),
     array(0, 0, 0, 5, 0, 0, 0, 0, 4),
@@ -19,3 +20,4 @@
 $game = new Sudoku();
 $game->solve_it($arr);
 $game->getResult();
+```
