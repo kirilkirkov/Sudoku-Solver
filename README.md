@@ -24,8 +24,8 @@ $game = new Sudoku();
 $game->solve_it($arr);
 $game->getResult();
 ```
-### How it works:
-* It works with backtracking algorithm
+### How it works ?
+* It works with backtracking algorithm. When you put array into *solve_it* method array go loop and check all cells. When find cell==0 program call other method that find all possible values that can be put in this cell than save row num and col num and values into other array and repeat this with all cells. If have conflict function return itself and try again. When all zero values are replaced and dont have conflicts method return ready solved array!
 
 ### What is backtracking algorithm ?
 * Backtracking algorithms are adapted to solve the Sudoku that iterates all the possible solutions for the given sudoku. If the solutions assigned do not lead to the solution of Sudoku, the algorithm discards the solutions and rollbacks to the original solutions and retries again and hence the name backtracking.
