@@ -6,7 +6,7 @@
 * Call *getResult* method to see result
 * Example:
  ```
-> $arr = array(
+$arr = array(
     array(0, 6, 0, 0, 0, 0, 0, 3, 0),
     array(0, 0, 0, 5, 0, 0, 0, 0, 4),
     array(4, 1, 0, 0, 0, 9, 0, 2, 0),
