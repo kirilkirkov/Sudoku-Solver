@@ -5,6 +5,11 @@ class Sudoku {
     private $comming_arr = array();
     private $grids = array();
     private $columns_begining = array();
+    private $time_tracking = array();
+
+    public function __construct() {
+        $this->time_tracking['start'] = microtime(true);
+    }
 
     private function set_grids() { //MAKE GRIDS
         $grids = array();
@@ -134,12 +139,19 @@ class Sudoku {
     }
 
     public function getResult() {
+        echo "\n";
         foreach ($this->comming_arr as $k => $row) {
             foreach ($row as $kk => $r) {
                 echo $r . ' ';
             }
             echo "\n";
         }
+    }
+
+    public function __destruct() {
+        $this->time_tracking['end'] = microtime(true);
+        $time = $this->time_tracking['end'] - $this->time_tracking['start'];
+        echo "\nExecution time : " . number_format($time, 3) . " sec\n\n";
     }
 
 }
