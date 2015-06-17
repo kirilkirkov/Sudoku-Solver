@@ -26,5 +26,7 @@ $game->getResult();
 ```
 ### How it works:
 * It works with backtracking algorithm
+### What is backtracking algorithm ?
+* Backtracking algorithms are adapted to solve the Sudoku that iterates all the possible solutions for the given sudoku. If the solutions assigned do not lead to the solution of Sudoku, the algorithm discards the solutions and rollbacks to the original solutions and retries again and hence the name backtracking.
 * Example of backtracking:<br>
 ![alt tag](https://raw.githubusercontent.com/kirilkirkov/Sudoku-Solver/master/backtracking_mech.gif)
