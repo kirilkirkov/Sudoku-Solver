@@ -22,4 +22,7 @@ $game = new Sudoku();
 $game->solve_it($arr);
 $game->getResult();
 ```
- 
+### How it works:
+> It works with backtracking algorithm
+*Example of backtracking:
+![alt tag](https://raw.githubusercontent.com/kirilkirkov/Sudoku-Solver/master/backtracking_mech.gif)
