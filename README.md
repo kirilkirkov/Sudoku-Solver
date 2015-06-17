@@ -24,5 +24,5 @@ $game->getResult();
 ```
 ### How it works:
 > It works with backtracking algorithm
-*Example of backtracking:
+*Example of backtracking:<br>
 ![alt tag](https://raw.githubusercontent.com/kirilkirkov/Sudoku-Solver/master/backtracking_mech.gif)
