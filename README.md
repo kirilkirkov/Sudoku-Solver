@@ -5,8 +5,8 @@
 * Just put 2D Array into **solve_it** method
 * Call **getResult** method to see result
 * Example:
-<br />
-<span style="color:orange;">
+```php
+ 
 $arr = array(<br />
     array(0, 6, 0, 0, 0, 0, 0, 3, 0),<br />
     array(0, 0, 0, 5, 0, 0, 0, 0, 4),<br />
@@ -21,5 +21,5 @@ $arr = array(<br />
 $game = new Sudoku();<br />
 $game->solve_it($arr);<br />
 $game->getResult();<br />
-</span>
+```css
  
